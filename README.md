@@ -122,7 +122,7 @@ The experimental setup includes a laser source, water container, and LDR sensor 
 
 ![Pure Water Output](images/pure_water_output.png)
 
-This output shows low ADC values, indicating very less light scattering in clean water.
+This output shows low ADC values, indicating very low light scattering in clean water.
 
 ---
 
