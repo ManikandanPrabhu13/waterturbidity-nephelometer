@@ -10,11 +10,12 @@
 
 This project is a **low-cost water turbidity detection system** built using a laser, LDR, and Arduino Nano.
 
-The idea is based on **90° light scattering (nephelometry)**. When a laser passes through water:
-- Clean water → very less scattering  
-- Turbid water → more scattering  
+This project is based on **90° light scattering (nephelometry)**. When a laser beam passes through water:
 
-The scattered light is detected by an LDR, and the Arduino reads it as an analog value. This data is sent to **MATLAB** for plotting and analysis.
+- Clean water → minimal scattering  
+- Turbid water → increased scattering  
+
+The scattered light is detected using an LDR sensor, and the Arduino converts it into analog values. These values are then analyzed in MATLAB.
 
 This setup was built using simple components to understand how turbidity measurement works practically.
 
@@ -32,12 +33,15 @@ This setup was built using simple components to understand how turbidity measure
 
 ## 🔌 Working 
 
-Laser → Water Sample → Scattered Light (90°) → LDR → Arduino → MATLAB
+**Signal Flow:**
+
+Laser → Water Sample → 90° Scattered Light → LDR Sensor → Arduino (ADC) → MATLAB (Analysis & Visualization)
 
 
 
 ## 💻 Arduino Code
 
+```cpp
 const int ldrPin = A0;
 
 void setup() {
@@ -51,6 +55,9 @@ void loop() {
 
   delay(200);                          // Stable sampling
 }
+```
+
+
 
 
 
@@ -58,7 +65,7 @@ void loop() {
 
 ## 📊 MATLAB Code
 
-
+```matlab
 clc; clear;
 
 data = load('turbb.txt');
@@ -74,16 +81,16 @@ for i = 1:length(data)
     val = data(i);
 
     if val < 30
-      status = "Clear Water";
+        status = "Clear Water";
     elseif val < 60
-      status = "Medium Turbidity";
+        status = "Medium Turbidity";
     else
         status = "High Turbidity";
     end
 
     disp("Value: " + val + " --> " + status);
 end
-
+```
 
 
 
@@ -148,6 +155,12 @@ This project uses nephelometry, where light scattered at 90° is used to estimat
 1.Drinking water quality checking  
 2.Small-scale testing    
 3.Educational use   
+
+
+## ✅ Conclusion
+
+This project successfully demonstrates a low-cost implementation of turbidity measurement using nephelometry. The results clearly show the relationship between scattered light intensity and water turbidity, validating the working principle.
+
 
 
 ## 👤 Author
