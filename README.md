@@ -97,6 +97,33 @@ end
 | Highly Turbid   |    100+     |  High   |
 
 
+
+
+## 📷 Project Demonstration
+
+### 🧪 Experimental Setup
+
+![Setup](images/setup.png)
+
+The experimental setup includes a laser source, water container, and LDR sensor placed at 90° to detect scattered light. A dark chamber is used to avoid external light interference.
+
+---
+
+### 📊 MATLAB Output – Pure Water
+
+![Pure Water Output](images/pure_water_output.png)
+
+This output shows low ADC values, indicating very less light scattering in clean water.
+
+---
+
+### 🌊 MATLAB Output – Turbid Water
+
+![Turbid Water Output](images/turbid_water_output.png)
+
+This output shows higher ADC values due to increased scattering caused by suspended particles in water.
+
+
 ## 🗂️ Project Structure
 
 water-turbidity-nephelometer/
