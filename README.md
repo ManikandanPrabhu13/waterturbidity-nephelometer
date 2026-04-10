@@ -145,9 +145,9 @@ This project uses nephelometry, where light scattered at 90° is used to estimat
 
 ## 🚀 Applications
 
-Drinking water quality checking
-Small-scale testing
-Educational use
+1.Drinking water quality checking  
+2.Small-scale testing    
+3.Educational use   
 
 
 ## 👤 Author
