@@ -160,6 +160,12 @@ This project uses nephelometry, where light scattered at 90° is used to estimat
 3. Educational use  
 
 
+
+## Future Work:
+
+- Calibration to NTU units
+- Replace LDR with photodiode for better accuracy
+- Real-time serial plotting instead of file-based MATLAB input
    
 
 
