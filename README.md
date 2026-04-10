@@ -1,6 +1,10 @@
 
 # 💧 Water Turbidity Detection via 90° Light Scattering & MATLAB
 
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Domain](https://img.shields.io/badge/Domain-Embedded%20Systems%20%7C%20DSP-blue)
+
 > Real-time Water Turbidity Detection using 90° Light Scattering  
 > Arduino Nano + MATLAB | Embedded Systems & Signal Processing
 
