@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-Embedded%20Systems%20%7C%20DSP-blue)
 
-> Real-time Water Turbidity Detection using 90° Light Scattering  
+> Near Real-time Water Turbidity Detection using 90° Light Scattering  
 > Arduino Nano + MATLAB | Embedded Systems & Signal Processing
 
 > Madras Institute of Technology, Anna University · April 2026
@@ -132,8 +132,7 @@ This output shows low ADC values, indicating very low light scattering in clean 
 
 ![Turbid Water Output](images/turbid_water_output.png)
 
-This output shows higher ADC values due to increased scattering caused by suspended particles in water.
-
+This output shows higher ADC values due to increased light scattering caused by suspended particles.
 
 ## 🗂️ Project Structure
 
@@ -151,7 +150,7 @@ water-turbidity-nephelometer/
 ## 🔬 Concept
 
 This project uses nephelometry, where light scattered at 90° is used to estimate particle concentration.
-
+Higher turbidity results in increased scattered light intensity, which is proportional to particle concentration.
 
 ## 🚀 Applications
 
