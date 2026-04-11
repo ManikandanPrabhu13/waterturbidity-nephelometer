@@ -24,7 +24,7 @@ The scattered light is detected using an LDR sensor, and the Arduino converts it
 This setup was built using simple components to understand how turbidity measurement works practically.
 
 This system provides a relative measure of turbidity based on scattered light intensity.
----
+
 
 ## 🧰 Hardware Used
 
