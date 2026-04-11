@@ -137,13 +137,13 @@ This output shows higher ADC values due to increased light scattering caused by 
 
 ## 🗂️ Project Structure
 
-water-turbidity-nephelometer/
-│
-├── arduino/
-├── matlab/
-├── report/
-├── images/
-└── README.md
+water-turbidity-nephelometer/    
+│    
+├── arduino/     
+├── matlab/     
+├── report/     
+├── images/    
+└── README.md   
 
 
 
