@@ -161,13 +161,14 @@ This project uses nephelometry, where light scattered at 90° is used to estimat
 
 
 
-## Future Work:
+## 🔮 Future Improvements
 
 - Calibration to NTU units
-- Replace LDR with photodiode for better accuracy
-- Real-time serial plotting instead of file-based MATLAB input
-   
+- Replace LDR with photodiode sensor
+- Real-time MATLAB serial data plotting
+- Noise filtering using DSP techniques
 
+  
 
 ## ✅ Conclusion
 
