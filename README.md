@@ -109,11 +109,7 @@ end
 | Highly Turbid   |    100+     |  High   |
 
 
-*Note: Values shown are representative of expected 
-system behavior based on nephelometric principle. 
-Actual readings may vary with setup geometry 
-and ambient light conditions.* 
-
+*Note:*Note: Values shown are representative of expected system behavior based on the nephelometric principle. Actual readings may vary due to factors such as sensor placement, alignment, and ambient light conditions.*
 
 ## 📷 Project Demonstration
 
